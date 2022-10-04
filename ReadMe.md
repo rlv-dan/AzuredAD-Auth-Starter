@@ -1,13 +1,12 @@
+# AzuredAD-Auth-Starter
 
-# Starter project for AzureAD authenticated communication with ASP.Net Core 6 API, React SPA and console app
+Starter project for AzureAD authenticated communication with ASP.Net Core 6 API, React SPA and console app
 
 Setting up authentication for a new project is important but can be a pain since all the pieces must fit together perfectly. I recently struggled with one of my projects, and for future reference I decided to create a starter project dealing with Azure AD authentication and authorization for a set of typical projects:
 
 1.  ASP.Net Core 6 Web API (the server)
 2.  React/Typescript SPA (single page application) (the client running in the browser)
 3.  Standalone .Net 6 console application (e.g. a daemon or web job)
-
-[Download the projects from my GitHub repo](https://github.com/rlv-dan/AzuredAD-Auth-Starter)
 
 They all use Microsoft Authentication Library (MSAL) to acquire access tokens (bearer) from Azure AD to then connect to secured services. (It is important is to remember that different services require different tokens!)
 
